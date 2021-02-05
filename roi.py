@@ -48,9 +48,9 @@ def findRoi(filename):
 
 				# TODO: Need to fix these bugs
 				#	if obj1["box"].dist(obj2["box"]) != obj2["box"].dist(obj1["box"]):
-				#		print "WARNING: Antisymmetric distance for {0} and {1}".format(obj1["id"], obj2["id"])
-				#		print "Distances are: {0} and {1}".format(obj1["box"].dist(obj2["box"]), obj2["box"].dist(obj1["box"]))
-				#		print "{0}, {1}".format(obj1["box"], obj2["box"])
+				#		print("WARNING: Antisymmetric distance for {0} and {1}".format(obj1["id"], obj2["id"]))
+				#		print("Distances are: {0} and {1}".format(obj1["box"].dist(obj2["box"]), obj2["box"].dist(obj1["box"])))
+				#		print("{0}, {1}".format(obj1["box"], obj2["box"]))
 					
 					obj1["set"] = obj1["set"].union(obj2["set"])
 					for id in obj1["set"]:

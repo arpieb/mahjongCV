@@ -43,7 +43,7 @@ def findInlier(img):
 		matchesMask = mask.ravel().tolist()
 
 	else:
-		#print "Not enough matches are found - %d/%d" % (len(good), MIN_MATCH_COUNT)
+		#print("Not enough matches are found - {}/{}".format(len(good), MIN_MATCH_COUNT))
 		matchesMask = []
 
 	# Print Inliers
